@@ -1,3 +1,6 @@
+# https://github.com/iawizard7/lab11-HD-MH
+# Partner 1: Houjun Dong
+# Partner 2: Michael Hackett
 """
 calculator.py
 - Defines functions used to create a simple calculator
@@ -5,6 +8,7 @@ calculator.py
 One function per operation, in order.
 """
 import math
+
 
 def square_root(a):
     if a < 0:
@@ -15,11 +19,12 @@ def square_root(a):
 def hypotenuse(a, b):
     return math.hypot(a, b)
 
+
 def add(a, b):
     return a + b
 
 
-def sub(a, b):
+def subtract(a, b):
     return a - b
 
 
@@ -34,7 +39,7 @@ def div(a, b):
     return b / a
 
 
-def log(a, b):
+def logarithm(a, b):
     # log base a of b
     if a <= 0 or a == 1 or b <= 0:
         raise ValueError("Invalid base or argument for logarithm")
